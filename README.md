@@ -1,2 +1,2 @@
 # Kafele (Kai) Ababa
-My Blog
+<a href="kafeleababa.github.io/index.html">My Blog</a>
