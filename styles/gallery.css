@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    font-family:'Courier New', Courier, monospace
+  }
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: verdana;
+    font-size: 60px;
+    text-align: left;
+  }
+  h2 {
+    color: rgb(255, 255, 255);
+    font-family: courier;
+    font-size: 20px;
+    text-align: left;
+  }
+  .image-grid {
+    width: 30%;
+    height: inherit;
+  }
+
+  .grid{
+    align-items: flex-start;
+  }

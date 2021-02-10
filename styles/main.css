@@ -34,10 +34,9 @@ body {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
-      background-blend-mode: lighten;
     }
 
-  }
+  
     table, th, td {
       border: 0.1px solid black;
       padding: 5px;
