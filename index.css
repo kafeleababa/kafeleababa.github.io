@@ -17,7 +17,7 @@ header {
     display: flex;
     }
 h1 {
-  font-size: 5vw;
+  font-size: 4vw;
   width: 100%;
   margin: 0 auto;
   position: absolute; 
@@ -26,11 +26,11 @@ h1 {
   }
 h2 {
   font-family: monospace;
-  font-size: 30px;
+  font-size: 3vw;
   width: 100%;
   position: relative; 
   text-align: center;
-  padding-top: 150px;
+  padding-top: 225px;
   }
 
 h3 {
@@ -114,8 +114,8 @@ a {
 .footer {
   font-family: monospace;
   position: fixed;
-  left: 100px;
-  right: 100px;
-  bottom: 20px;
+  left: 0;
+  right: 0;
+  width: 100%;
   text-align: center;
 }
