@@ -17,6 +17,7 @@ header {
     display: flex;
     }
 h1 {
+  color: #000;
   font-size: 5vw;
   width: 100%;
   margin: 0 auto;
@@ -30,15 +31,31 @@ h2 {
   width: 100%;
   position: relative; 
   text-align: center;
-  padding-top: 150px;
+  padding: 100px 0px 0px 0px;
   }
 
 h3 {
+  font-family: monospace;
+  font-size: 25px;
+  width: 100%;
+  position: relative; 
+  text-align: center;
+  margin-top: 1%;
+  
+  margin-bottom: 2%;
+ 
+  padding: 100px 0px 0px 0px;
+  }
+  h4   {
     color: black;
-    font-family: courier;
+    font-family: 'Cambria', sans-serif;
     font-size: 20px;
-    text-align: center;
-    padding-top: 5%;
+    text-align: justified;
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    margin-left: 10%;
+    padding: 0px;
   }
 
 p   {
@@ -52,19 +69,17 @@ p   {
     margin-left: 10%;
     padding: 0px;
   }
-a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: left;
-  }
 .container {
-  position: sticky;
+  position: static;
+  margin: 0 auto;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 175px;
   }
 .btn {
-  border: 5px solid #000;
+  border-top: 5px solid #000;
+  border-right: 10px solid #000;
+  border-bottom: 10px solid #000;
+  border-left: 5px solid #000;
   background: none;
   padding: 20px;
   font-size: 40px;
@@ -108,12 +123,12 @@ a {
     box-shadow: 0 10px 5px rgba(0,0,0,0.2), 0 10px 5px rgb(0,0,0,0.23);
   }
 .cardContent {
-  padding: 10px;
+  padding: 20px 10px 30px 10px;
 }
 
 .footer {
   font-family: monospace;
-  position: fixed;
+  position: absolute;
   left: 100px;
   right: 100px;
   bottom: 20px;
