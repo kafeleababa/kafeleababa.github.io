@@ -1,87 +1,64 @@
-html {
-  background-color: lightslategray;
-  position: relative;
-  height: 200vh;
-}
-body { 
-  border-top: 15px solid #000000;
-  font-family: 'Roboto', sans-serif;
-  margin: 0px;
-  padding: 10px 10px 10px 10px ;
-  height: 200vh;
-  }
 header {
-    margin: 0px;
-    padding: 10px 10px 50px 10px;
-    font-family: "Roboto", sans-serif;
-    display: flex;
-    }
+  margin: 0px;
+  padding: 10px 10px 50px 10px;
+  display: block;
+}
+
+body { 
+  background-color: lightslategray;
+  border-top: 15px solid #000000;
+  font-family: monospace;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
+}
+
 h1 {
+  color: #000;
   font-size: 4vw;
   width: 100%;
   margin: 0 auto;
   position: absolute; 
   text-align: center;
   padding-top: 30px;
-  }
+}
 h2 {
-  font-family: monospace;
-  font-size: 3vw;
+  font-size: 2vw;
   width: 100%;
   position: relative; 
   text-align: center;
-  padding-top: 225px;
-  }
+  padding-top: 200px;
+}
 
-h3 {
-    color: black;
-    font-family: courier;
-    font-size: 20px;
-    text-align: center;
-    padding-top: 5%;
-  }
+p {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+}
 
-p   {
-    color: black;
-    font-family: 'Cambria', sans-serif;
-    font-size: 20px;
-    text-align: justified;
-    margin-top: 1%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    padding: 0px;
-  }
-a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    text-align: left;
-  }
 .container {
   position: sticky;
   text-align: center;
   padding-top: 10px;
-  }
+}
 .btn {
+  color: #000;
   border: 5px solid #000;
   background: none;
   padding: 20px;
+  font-family: monospace;
   font-size: 40px;
-  font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  margin: 1px;
+  margin: 10px;
   transition: 0.5s;
-  position: relative;
+  position: sticky;
   overflow: auto;
- }
-.btn {
-  color: black;
 }
+
 .btn:hover {
   color: white;
 }
-.home, .menu {
+
+.home {
   border: 0px;
   background: none;
   padding: 0px 0px;
@@ -89,33 +66,16 @@ a {
   cursor: pointer;
   margin: 10px;
   transition: 0.5s;
-  position: absolute;
   }
 
-.home:hover, .menu:hover {
+.fa-home:hover {
   color: white;
-}
-.links {
-    margin-right: 20px;
-    text-align: left;
-  }
-.fullCard {
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    padding: 5px;
-    box-shadow: 0 10px 5px rgba(0,0,0,0.2), 0 10px 5px rgb(0,0,0,0.23);
-  }
-.cardContent {
-  padding: 10px;
 }
 
 .footer {
-  font-family: monospace;
   position: fixed;
   left: 0;
-  right: 0;
+  bottom: 0;
   width: 100%;
   text-align: center;
 }
