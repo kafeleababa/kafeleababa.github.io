@@ -1,7 +1,7 @@
 header {
     margin: 0px;
     padding: 10px 10px 50px 10px;
-    display: flex;
+    display: block;
 }
 
 body {
@@ -14,16 +14,15 @@ body {
 
 h1 {
     color: #000;
-    font-size: 4vw;
+    font-size: 80px;
     width: 100%;
     margin: 0 auto;
     position: absolute;
     text-align: center;
-    padding-top: 30px;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 50px;
     width: 100%;
     position: relative;
     text-align: center;
@@ -124,6 +123,8 @@ img {
     right: 0px;
     width: 0 auto;
     height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 ul {
@@ -140,9 +141,8 @@ ul {
 }
 
 .footer {
-    position: static;
-    left: 0;
-    bottom: 0;
+    position: sticky;
     width: 100%;
+    bottom: 0%;
     text-align: center;
 }

@@ -1,81 +1,83 @@
 header {
-  margin: 0px;
-  padding: 10px 10px 50px 10px;
-  display: block;
+    margin: 0px;
+    padding: 10px 10px 50px 10px;
+    display: block;
 }
 
-body { 
-  background-color: lightslategray;
-  border-top: 15px solid #000000;
-  font-family: monospace;
-  margin: 0px;
-  padding: 10px 10px 10px 10px;
+body {
+    background-color: lightslategray;
+    border-top: 15px solid #000000;
+    font-family: monospace;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
 }
 
 h1 {
-  color: #000;
-  font-size: 4vw;
-  width: 100%;
-  margin: 0 auto;
-  position: absolute; 
-  text-align: center;
-  padding-top: 30px;
+    color: #000;
+    font-size: 80px;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
 }
+
 h2 {
-  font-size: 2vw;
-  width: 100%;
-  position: relative; 
-  text-align: center;
-  padding-top: 200px;
+    font-size: 50px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
 }
 
 p {
-  color: black;
-  font-family: monospace;
-  font-size: 20px;
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .container {
-  position: sticky;
-  text-align: center;
-  padding-top: 10px;
+    position: sticky;
+    text-align: center;
+    padding-top: 10px;
 }
+
 .btn {
-  color: #000;
-  border: 5px solid #000;
-  background: none;
-  padding: 20px;
-  font-family: monospace;
-  font-size: 40px;
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.5s;
-  position: sticky;
-  overflow: auto;
+    border-top: 5px solid #000;
+    border-right: 10px solid #000;
+    border-bottom: 10px solid #000;
+    border-left: 5px solid #000;
+    background: none;
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    margin: 1px;
+    transition: 0.5s;
+    position: relative;
+    overflow: auto;
 }
 
 .btn:hover {
-  color: white;
+    color: white;
 }
 
 .home {
-  border: 0px;
-  background: none;
-  padding: 0px 0px;
-  font-size: 50px;
-  cursor: pointer;
-  margin: 10px;
-  transition: 0.5s;
-  }
+    border: 0px;
+    background: none;
+    padding: 0px 0px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+}
 
 .fa-home:hover {
-  color: white;
+    color: white;
 }
 
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
