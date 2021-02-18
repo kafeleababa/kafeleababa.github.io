@@ -35,12 +35,13 @@
                 <h3><b>Javascript and the DOM</b></h3>
                 <h4 class="cardtitle">HTML and CSS</h4>
                 <p>
-                    The building blocks of any website are HTML and CSS. HTML is all you need to build the most basic of pages. Think of it like a stock standard car. CSS comes in and gives it a paint job, rims, a bodykit and a spoiler (for good measure). CSS takes plain
+                    The building blocks of any website are HTML and CSS. HTML is all you need to build the most basic of pages. Think of it like a stock standard car. CSS comes in and gives it a paint job, rims, a body kit and a spoiler (for good measure). CSS takes plain
                     old HTML and gives it colour and style!
                 </p>
-                <div><img src="plain html page.PNG" alt="Plain HTML with no CSS" class="img" width=400px;><br>HTML page with no CSS</div>
-                <div><img src="html with css.PNG" alt="Plain HTML with no CSS" class="img" width=400px;><br>HTML page with CSS</div><br>
-
+                <div>
+                    <div><img src="plain html page.PNG" alt="Plain HTML with no CSS" width=400px;><br>HTML page with no CSS.</div>
+                    <div><img src="html with css.PNG" alt="HTML with CSS" width=400px;><br>HTML page with CSS</div><br>
+                </div>
                 <h4 class="cardtitle ">Control Flow and Loops</h4>
                 <p>The Control Flow refers to the direction that code is read and subsequently written, which is left-to-right, top-to-bottom. This means the layout and structure of the code are crucial to having it run smooth and efficiently. Using Folding
                     Laundry as an example of a flow. Pick up item, Fold item, Put item away. This is how a program will read and then execute the code.
@@ -49,18 +50,33 @@
                     A loop is best described as a set of instructions that the program will follow until the conditions are met or the loops itself ends. To use the folding laundry analogy again, a loop would look like this: Pick up item, Fold item, Put item away, Return
                     to basket. Repeat until the basket is empty.
                 </p>
+                <p>
+                    A loop is best described as a set of instructions that the program will follow until the conditions are met or the loops itself ends. To use the folding laundry analogy again, a loop would look like this: Pick up item, Fold item, Put item away, Return
+                    to basket. Repeat until the basket is empty.
+                </p>
+
+                <h4 class="cardtitle ">Functions</h4>
+                <p>A function is a chuck of code which, when run or 'called', will execute that code.
+                </p>
+                <div><img src="function eg.PNG" alt="Function example" class="img" width=80%;></div>
+
+                <p>Function naming follows the same rules as variables, multiple words are written in camelCase, and may contain letters, numbers, dollar signs or underscores. Within the function you can set parameters (p1, p2) which, when this particular
+                    function is called will return the sum of p1 * p2.
+                </p>
+                <div><img src="calling a function.PNG" alt="Function example" class="img" width=80%;></div>
+
 
                 <h4 class="cardtitle ">Arrays and Objects</h4>
                 <p>Although Objects and Arrays are used for a similar purpose, they do it in slightly different ways. An array is a variable used to store a list of items in a string e.g: </p>
 
-                <div><img src="Array Example.PNG" alt="Plain HTML with no CSS" class="img" width=80%;></div>
+                <div><img src="Array Example.PNG" alt="Array example" class="img" width=80%;></div>
 
                 <p>Items in an array are stored using a <b>0 Index</b> and can be accessed using the items index number. To get the name of the second car in our list you would use <br><em>var name = cars[1]</em><br> as all array indexes start with 0.
                 </p>
 
                 <p>An object is used to store multiple types of data, for example in the image below we have the data of John Doe, his name, his age and his eye color.</p>
 
-                <div><img src="Object Example.PNG" alt="Plain HTML with no CSS" class="img" width=80%;><br>
+                <div><img src="Object Example.PNG" alt="Object example" class="img" width=80%;><br>
                     <div><br>
                         <p> To access items stored in an object you have to use the dot.notation method:<br>
                             <em>console.log(person.firstName);</em> This would print "John" to the console as that is the data stored in "firstName".
@@ -71,7 +87,7 @@
                             The DOM or Document Object Model, is an interface used to represent a webpage and its contents. The DOM structures your page into a hierarchy style tree that displays all of the different parts or nodes which make up the page. Each node is displayed as
                             an object which represents an HTML Element. Each of these objects can be found and then altered within the DOM using the DevTools interface in most browsers.
                         </p>
-                        <div><img src="DOM_js_72.png" alt="Plain HTML with no CSS" class="img" width=50%;><br>This is a very simplified representation of the DOM.<br>Courtesy of Kirupa.com
+                        <div><img src="DOM_js_72.png" alt="The DOM" class="img" width=50%;><br>This is a very simplified representation of the DOM.<br>Courtesy of Kirupa.com
                         </div><br>
                         <p>
                             The easiest way to access and edit the DOM is through DevTools, which on most browsers can be opened by pressing the F12 Key on Windows OS, on a Mac its Command + Option + i.
