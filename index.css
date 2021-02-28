@@ -58,6 +58,7 @@ p {
 
 .btn:hover {
     color: white;
+    background-color: black;
 }
 
 .home {
