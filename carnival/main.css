@@ -29,8 +29,10 @@ table {
 
 td {
     background-color: BurlyWood;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(129, 92, 13);
 }
 
 .container {
@@ -68,6 +70,6 @@ td {
 }
 
 #mole {
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
 }
