@@ -2,20 +2,20 @@
     box-sizing: border-box;
 }
 
-
-/* Add a gray background color with some padding */
-
 body {
-    font-family: Arial;
-    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
     background: lightgray;
 }
 
-
-/* Header/Blog Title */
+.page {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 2.5rem;
+}
 
 .header {
-    padding: 20px;
+    padding: 10px;
     font-size: 40px;
     text-align: center;
 }
@@ -40,46 +40,60 @@ body {
     background-color: black;
 }
 
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #000;
+}
 
-/* Create two unequal columns that floats next to each other */
+.artbtn {
+    border-top: 1px solid #000;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-left: 1px solid #000;
+    background: none;
+    padding: 10px;
+    font-size: 2vw;
+    cursor: pointer;
+    margin: 1px;
+    transition: 0.5s;
+    position: relative;
+    overflow: auto;
+}
 
+.artbtn:hover {
+    color: white;
+    background-color: black;
+}
 
-/* Left column */
+.img {
+    float: right;
+}
 
 .leftcolumn {
     float: left;
-    width: 75%;
+    width: 50%;
 }
-
-
-/* Right column */
 
 .rightcolumn {
     float: left;
-    width: 25%;
+    width: 50%;
     padding-left: 20px;
 }
 
-
-/* Fake image */
-
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
-
-/* Add a card effect for articles */
-
 .card {
     background-color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-right: 10px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-top: 20px;
 }
-
-
-/* Clear floats after the columns */
 
 .row:after {
     content: "";
@@ -87,20 +101,15 @@ body {
     clear: both;
 }
 
-
-/* Footer */
-
 .footer {
-    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5 rem;
     text-align: center;
-    background: #ddd;
-    margin-top: 20px;
 }
 
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .leftcolumn,
     .rightcolumn {
         width: 100%;
