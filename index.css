@@ -1,56 +1,35 @@
-body {
-    background-color: lightgray;
-    border-top: 10px solid #000000;
-    font-family: monospace;
-    margin: 0px;
-    padding: 10px 10px 10px 10px;
+* {
+    box-sizing: border-box;
 }
 
-header {
-    margin: 10px;
-    padding: 10px 10px 50px 10px;
+body {
+    margin: 0;
+    border-top: 10px solid #000;
+    height: 99vh;
+    background-color: #d3d3d3;
+    overflow: hidden;
 }
 
 h1 {
     color: #000;
-    font-size: 10vw;
-    width: 100%;
-    margin: 0 auto;
-    position: absolute;
-    text-align: center;
 }
 
-h2 {
-<<<<<<< Updated upstream
-    font-size: 40px;
-=======
-    font-size: 4vh;
->>>>>>> Stashed changes
-    width: 100%;
-    position: relative;
-    text-align: center;
-    padding-top: 200px;
+a {
+    text-decoration: none;
 }
 
-p {
-    color: black;
-    font-family: monospace;
-    font-size: 20px;
-}
-
-.container {
-<<<<<<< Updated upstream
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 175px;
-=======
-    display: flexbox;
+.header {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-content: center;
-    text-align: center;
-    padding-top: 100px;
->>>>>>> Stashed changes
+    align-items: center;
+    height: 15%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
 }
 
 .btn {
@@ -59,8 +38,9 @@ p {
     border-bottom: 10px solid #000;
     border-left: 5px solid #000;
     background: none;
-    padding: 20px;
-    font-size: 4vw;
+    width: 100%;
+    padding: 5%;
+    font-size: 1.5rem;
     cursor: pointer;
     margin: 1px;
     transition: 0.5s;
@@ -68,93 +48,12 @@ p {
     overflow: auto;
 }
 
-.btn {
-    color: black;
-}
-
-.btn:hover {
-    color: white;
-}
-
-.home {
-    border: 0px;
-    background: none;
-    padding: 0px 0px;
-    font-size: 50px;
-    cursor: pointer;
-    margin: 10px;
-    transition: 0.5s;
-}
-
-.home:hover {
-    color: white;
-}
-
-.card {
-    position: relative;
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 10%;
-    margin-bottom: 20px;
-    margin-left: 10%;
-    padding: 10px;
-}
-
-.img {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    width: 0 auto;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15%;
     width: 100%;
     text-align: center;
-}
-
-.sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-}
-
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
-
-.sidenav a:hover {
-    color: #f1f1f1;
-}
-
-.main {
-    margin-left: 160px;
-    /* Same as the width of the sidenav */
-    font-size: 28px;
-    /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
 }
