@@ -1,57 +1,67 @@
-* {
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 body {
     margin: 0;
-    border-top: 10px solid #000;
-    height: 99vh;
-    background-color: #d3d3d3;
-    overflow: hidden;
-}
-
-h1 {
-    color: #000;
-}
-
-a {
-    text-decoration: none;
-}
-
-.header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 15%;
+    font-family: Montserrat;
+    height: 100vh;
+    background-color: #d3d3d3;
+}
+
+h1 {
+    color: #000;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+.header {
+    font-size: 1.5rem;
+}
+
+.siteMessage {
+    text-align: center;
+    padding: 32px;
+    font-size: 16px;
 }
 
 .button-container {
     display: flex;
     flex-direction: column;
-    height: 75%;
+    align-items: center;
+    justify-content: center;
+    height:100%
 }
 
 .btn {
+    width: 200px;
+    height: 100px;
     border-top: 5px solid #000;
     border-right: 10px solid #000;
     border-bottom: 10px solid #000;
     border-left: 5px solid #000;
     background: none;
-    width: 100%;
-    padding: 5%;
     font-size: 1.5rem;
     cursor: pointer;
-    margin: 1px;
-    transition: 0.5s;
-    position: relative;
-    overflow: auto;
+    transition: all 0.4s;
 }
 
-.footer {
+.btn:hover {
+    background-color: #fafafa;
+    border: outset 15px #3a3a3a;
+}
+
+ .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     height: 15%;
     width: 100%;
